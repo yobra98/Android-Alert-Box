@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yobra.msupa.brianyobra.alert">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="yobra.msupa.brianyobra.alert.PositiveActivity"
+            android:label="@string/title_activity_positive" >
+        </activity>
+        <activity
+            android:name="yobra.msupa.brianyobra.alert.NegativeActivity"
+            android:label="@string/title_activity_negative" >
+        </activity>
+    </application>
+
+</manifest>
